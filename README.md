@@ -1,15 +1,15 @@
 # MoE-E2E — Pilot-Free End-to-End Communication
 
 Official implementation for  
-**“A Pilot-Free End-to-End Communication System Using Complex Convolutional Encoder and Mixture-of-Experts Based Decoder.”**  
-Yulai Han, Jingbo Tan, Rui Zeng, Jintao Wang (BNRist, Tsinghua University). *(WCNC 2026 submission)*
+“A Pilot-Free End-to-End Communication System Using Complex Convolutional Encoder and Mixture-of-Experts Based Decoder.”  
+Yulai Han, Jingbo Tan, Rui Zeng, Jintao Wang (BNRist, Tsinghua University). (WCNC 2026 submission)
 
-## Quick Start
-```bash
-# env
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+---
 
-# train / eval (示例命令，按你项目改)
-python scripts/train.py --config configs/base.yaml
-python scripts/eval.py  --config configs/base.yaml
+All code, training procedures, and output results are included in **`main.ipynb`**.  
+You can open and run this notebook directly in Jupyter or Google Colab to reproduce the results.
+
+## Usage
+1. Open `main.ipynb` in Jupyter Notebook or Google Colab.  
+2. Run all cells in order to execute training, evaluation, and visualization.  
+3. Generated metrics and plots will appear in the notebook outputs.
